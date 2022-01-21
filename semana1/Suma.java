@@ -1,0 +1,21 @@
+
+//Imprimir varias lineas en un cuadro de dialogo.
+import java.util.Scanner;
+
+public class Suma {
+	//el metodo main empieza la ejecucion de la aplicacion de java
+	public static void main(String args[])
+	{	
+		Scanner entrada = new Scanner(System.in);
+		int numero1;
+		int numero2;
+		int suma;
+		System.out.print("Escriba el primer entero: ");
+		numero1 = entrada.nextInt();
+		System.out.print("Escriba el segundo entero: ");
+		numero2 = entrada.nextInt();
+		suma = numero1 + numero2;
+		System.out.printf("La suma es %d\n",suma);
+		
+	}//fin del metodo main
+}//fin de la clase Bienvenido4
